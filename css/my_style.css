@@ -1,0 +1,474 @@
+@font-face {
+  font-family: "good-dog"; /*a name to be used later*/
+  src: url("FH-GoodDogPlainWTT/gooddp__-webfont.woff"); /*URL to font*/
+}
+
+@font-face {
+  font-family: "nocturne"; /*a name to be used later*/
+  src: url("Nocturne/Nocturne.ttf"); /*URL to font*/
+}
+
+@font-face {
+  font-family: "restora";
+  src: url("Restora/RestoraExtraLight.otf");
+}
+
+@font-face {
+  font-family: "monday_routines";
+  src: url("Monday_Routines.ttf");
+}
+
+@font-face {
+  font-family: "wildstripe";
+  src: url("Wildstripe.otf");
+}
+
+body {
+  background-color: #f1f1f1;
+  background-size: 49%;
+}
+
+.btn-dw {
+  background-color: #1da1f2;
+  color: white;
+}
+
+.header-container {
+  background-color: white;
+  border-bottom: 2px solid #e9e9e9;
+}
+
+.my-btn {
+  width: 120px;
+}
+
+.form-control {
+  border: none;
+}
+
+.form-control:focus {
+  border: none;
+  box-shadow: none;
+}
+
+.carousel-img {
+  width: auto;
+  height: 400px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.card-columns {
+  visibility: hidden;
+}
+
+.hazel-gradient {
+  background: linear-gradient(
+    to right,
+    rgb(119, 161, 211),
+    rgb(121, 203, 202),
+    rgb(230, 132, 174)
+  );
+}
+
+.evening-sunshine-gradient {
+  background: linear-gradient(
+    90deg,
+    #23a6d5,
+    #23d5ab,
+    rgb(119, 161, 211),
+    rgb(121, 203, 202),
+    rgb(230, 132, 174)
+  );
+  background-size: 400% 400%;
+  animation: gradient 20s ease infinite;
+}
+
+.evening-sunshine-gradient-text {
+  color: #23a6d5;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.version-one-gradient {
+  background: linear-gradient(to right, rgb(95 185 39), rgb(21, 101, 192));
+}
+
+.version-two-gradient {
+  background: linear-gradient(to right, rgb(95 185 39), rgb(192 21 84));
+}
+
+.version-three-gradient {
+  background: linear-gradient(to right, rgb(185 133 39), rgb(190 43 43));
+}
+
+.my-navbar-brand:hover {
+  color: #cccccce6 !important;
+  transition: 0.5s;
+}
+
+.homepage-gradient-text {
+  background: linear-gradient(to right, rgb(21, 101, 192), white);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.btn-dream-world {
+  background: linear-gradient(to right, rgb(185, 43, 39), rgb(21, 101, 192));
+  color: #fff;
+}
+
+.btn-success:active {
+  border: none;
+  box-shadow: none;
+}
+
+.navbar-brand:hover span {
+  color: white !important;
+  transition: 0.3s;
+}
+
+.coins-text {
+  color: #454545;
+  font-size: 12px;
+}
+
+.mw-80 {
+  max-width: 80% !important;
+}
+
+.text-color-all {
+  background: linear-gradient(to right, rgb(185, 43, 39), rgb(21, 101, 192));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.text-color-fashion {
+  background: linear-gradient(to right, rgb(185, 43, 39), rgb(21, 101, 192));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.text-color-relationship {
+  background: linear-gradient(to right, rgb(185, 43, 39), rgb(21, 101, 192));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.text-color-body {
+  background: linear-gradient(to right, rgb(185, 43, 39), rgb(21, 101, 192));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.text-color-vibes {
+  background: linear-gradient(to right, rgb(185, 43, 39), rgb(21, 101, 192));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.text-color-wifey {
+  background: linear-gradient(to right, rgb(185, 43, 39), rgb(21, 101, 192));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.text-color-quotes {
+  background: linear-gradient(to right, rgb(185, 43, 39), rgb(21, 101, 192));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.modal-img {
+  width: auto;
+  max-height: 860px;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+  /*border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;*/
+  border-radius: 10px;
+  height: 150px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .fade {
+    transition: none;
+  }
+}
+
+.modal-open .modal {
+  background: #000000e3;
+}
+
+.modal .modal-dialog {
+  max-width: 1515px;
+}
+
+.container a {
+  text-decoration: none;
+}
+
+.post {
+  width: 100%;
+  border: 2px solid #e9e9e9;
+  background: white;
+  border-radius: 4px;
+  height: auto;
+  padding: 20px;
+  box-sizing: border-box;
+  color: #7b7b7b;
+}
+
+.post:hover {
+  border-color: #d9d9d9;
+  transition: 0.2s;
+}
+
+.card-icon {
+  width: auto;
+  max-width: 100px;
+}
+
+.category-title {
+  color: #939393;
+  border-bottom: 1px solid grey;
+  margin-bottom: 10px;
+}
+
+.page-title {
+  color: #808080;
+}
+
+.card-header input {
+  border: none;
+  background: #f7f7f7;
+}
+
+.card-header input:active,
+.card-header input:focus {
+  background: #f7f7f7;
+}
+
+.my-label {
+  color: white;
+  width: 100%;
+  border-radius: 4px;
+  padding: 10px;
+  box-sizing: border-box;
+  margin-top: 20px;
+}
+
+.menu-item {
+  box-sizing: border-box;
+  width: 100%;
+  background: white;
+  border: 2px solid #e9e9e9;
+  border-radius: 4px;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: #7b7b7b;
+}
+
+.menu-item:hover {
+  border-color: #d9d9d9;
+  transition: 0.2s;
+}
+
+.menu-item-icon {
+  width: 80%;
+  margin-left: 10%;
+  margin-bottom: 7px;
+}
+
+.new-note-category-label {
+  cursor: pointer;
+}
+
+input:checked {
+  background-color: green !important;
+}
+
+.jumbotron {
+  padding: 1.5rem 2rem !important;
+}
+
+/* Vintage Journal */
+
+.vintage-journal-textarea {
+  width: 100%;
+  height: 799px;
+  background: none;
+  color: black;
+  font-family: "wildstripe";
+  border: none;
+  padding-left: 120px;
+  font-size: 25px;
+  padding-top: 30px;
+  margin-top: 30px;
+  background-image: url("../images/resources/vintage-journal-bg.jpg");
+}
+
+.vintage-journal-textarea:focus,
+.vintage-journal-textarea:active {
+  outline: none;
+  box-shadow: none;
+}
+
+.vintage-journal-submit-btn {
+  cursor: pointer;
+  height: 830px;
+  margin-left: 10px;
+  border: none;
+  width: 100px;
+  background: none;
+}
+
+.vintage-journal-submit-btn:focus {
+  border: none;
+  outline: none;
+}
+
+.food-box {
+  width: 100%;
+  border: 2px solid #e9e9e9;
+  background: white;
+  border-radius: 4px;
+  height: auto;
+  box-sizing: border-box;
+  color: #7b7b7b;
+}
+
+.food-item {
+  width: 100%;
+  height: auto;
+  margin-bottom: 8px;
+}
+
+.food-item-title {
+  line-height: 45px;
+}
+
+.input-border,
+.input-border:focus,
+.input-border:active {
+  border: 2px solid #e9e9e9;
+}
+
+.card-title {
+  text-align: center;
+}
+
+#secondary-nav {
+  display: none;
+}
+
+#third-nav {
+  display: none;
+  margin-top: 20px;
+}
+
+.quick-note-trigger {
+  cursor: pointer;
+  width: 100%;
+}
+
+.quick-note-holder {
+  display: none;
+}
+
+.food_eaten_item {
+  height: 30px;
+}
+
+.note-footer {
+  font-size: 15px;
+  color: grey;
+}
+
+.mobile-menu-icon {
+  display: none;
+}
+
+.mobile-menu {
+  display: none;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  background: white;
+  z-index: 9999;
+}
+
+.mobile-header-nav {
+  
+}
+
+@media only screen and (max-width: 1070px) {
+  #primary-nav {
+    display: none;
+  }
+
+  .mobile-menu-icon {
+    display: block;
+  }
+
+  .form-expanded-sm {
+    width: 100% !important;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .display-4 {
+    font-size: 2.5em;
+  }
+
+  .jumbotron {
+    padding: 3em 2em;
+  }
+
+  .card {
+    width: 100% !important;
+  }
+}
+
+@media only screen and (max-width: 775px) {
+  .badge-gainz {
+    width: 100%;
+  }
+
+  .card-columns {
+    -webkit-column-count: 1 !important;
+    -moz-column-count: 1 !important;
+    column-count: 1 !important;
+  }
+}
