@@ -1,0 +1,8 @@
+drop table `users`;
+
+CREATE TABLE users (
+ email VARCHAR(255) UNIQUE,
+ username VARCHAR(255) NOT NULL UNIQUE,
+ pass VARCHAR(255) NOT NULL,
+ PRIMARY KEY (username)
+);
